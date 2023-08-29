@@ -1,5 +1,5 @@
 .navbar {
-    background-color:rgba(75, 105, 130, 0.192);
+    background-color:hsla(210, 14%, 89%, 0.904);
     backdrop-filter: blur(5px);
   }
 .navbar-toggler {
@@ -22,4 +22,9 @@
 .nav-link:hover{
   text-decoration: underline;
   color: rgb(216, 216, 216);
+}
+
+/* Agrega un color al ícono del menú hamburguesa */
+.navbar-toggler {
+  background:rgb(75, 105, 130);
 }

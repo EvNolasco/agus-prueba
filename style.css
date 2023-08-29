@@ -21,6 +21,7 @@
   font-weight: bold;
   font-size: 3.5rem;
   margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .explanation {
@@ -29,6 +30,7 @@
   max-width: 800px;
   text-align: center;
   font-weight: 500;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .primario {
@@ -48,6 +50,7 @@
   color: white;
   display: flex;
   flex-direction: column;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .contact-me {

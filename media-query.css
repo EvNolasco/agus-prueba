@@ -1,7 +1,7 @@
 @media (max-width: 480px) {
     .portada img {
       max-height: 60vh;
-      margin: 5px;
+      margin: 10px auto;
     }
   
     .portada p {
@@ -17,6 +17,7 @@
     .presentation {
       font-size: 1.8rem;
       margin-bottom: 15px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 
     .explanation {
@@ -24,13 +25,18 @@
       max-width: 350px;
   }
 
+  .contact-me {
+    font-size: 2.5em;
   }
+
+}
   
   /* Media Queries para Celulares Grandes (481px a 767px) */
   @media (min-width: 481px) and (max-width: 767px) {
+
     .portada img {
       max-height: 70vh;
-      margin: 8px;
+      margin: 10px auto;
     }
   
     .portada p {
@@ -43,6 +49,7 @@
     .presentation {
       font-size: 2.6rem;
       margin-bottom: 15px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 
     .explanation {
@@ -50,12 +57,19 @@
       max-width: 460px;
   }
 
+  .contact-me {
+    font-size: 2.5em;
+  }
+
+}
+
 
    /* Media Queries para Tablets (768px a 1023px) */
   @media (min-width: 768px) and (max-width: 1023px) {
+
     .portada img {
       max-height: 75vh;
-      margin: 10px;
+      margin: 10px auto;
     }
   
     .portada p {
@@ -68,6 +82,7 @@
     .presentation {
         font-size: 3rem;
         margin-bottom: 15px;
+        
     }
 
     .explanation {
@@ -80,11 +95,9 @@
   .primario:nth-child(5) {
     padding: 30px 1000px;
   }
-
   
-
-
-  
- }
-
+  .contact-me {
+    font-size: 2.5em;
   }
+
+ }
